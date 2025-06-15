@@ -20,14 +20,11 @@ from scipy.spatial.distance import cdist
 from scipy.optimize import minimize
 
 warnings.filterwarnings('ignore')
-
-# Configuration
-API_KEY = "BXM8XW-JDPWHA-VLP6Q6-5HUH"
+API_KEY = "Use Your Own API buddy3543BHD47"
 BASE_URL = "https://api.n2yo.com/rest/v1/satellite"
 
 @dataclass
 class SatelliteData:
-    """Data structure for satellite information"""
     satid: int
     name: str
     latitude: float
@@ -40,7 +37,6 @@ class SatelliteData:
 
 @dataclass
 class CollisionRisk:
-    """Data structure for collision risk assessment"""
     sat1_id: int
     sat2_id: int
     distance: float
