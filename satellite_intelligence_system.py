@@ -1,23 +1,3 @@
-#!/usr/bin/env python3
-"""
-AI-Powered Satellite Constellation Intelligence System
-=====================================================
-
-An advanced system that combines real-time satellite tracking with AI/ML for:
-- Predictive collision detection
-- Orbital pattern analysis
-- Space debris risk assessment
-- Constellation optimization
-- Anomaly detection in satellite behavior
-
-Features:
-- Real-time satellite tracking with N2YO API
-- Machine learning for orbital predictions
-- AI-powered risk assessment
-- Interactive visualizations
-- Space situational awareness alerts
-"""
-
 import requests
 import numpy as np
 import pandas as pd
